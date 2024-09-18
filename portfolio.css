@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 20px 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li a:hover {
+    background-color: #444;
+}
+
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    width: 100%;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 3em;
+}
+
+.logo p {
+    font-size: 1.2em;
+}
+#about {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#about .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+#about p {
+    max-width: 600px;
+    line-height: 1.8;
+}
+#skills {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+#projects {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project {
+    max-width: 300px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+.project p {
+    margin-top: 5px;
+}
+#resume {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.download-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#contact {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
